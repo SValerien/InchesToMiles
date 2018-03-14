@@ -1,0 +1,110 @@
+
+/*CSS FOR IMAGES SECTION*/
+#2{
+    display:none;
+}
+
+#recentH{
+    height:20px;
+    width:100%;
+    display:block;
+}
+
+#recentTable{
+    display:block;
+}
+
+#left{
+    float:left;
+    width:25%;
+    height:80%;
+    display: flex;
+    position:absolute;
+    left:10%;
+    top:10%;
+}
+
+img{
+    float:left;
+    width:15%;
+    height:80%;
+    display: flex;
+    position:absolute;
+    left:33%;
+    top:10%;
+}
+
+/*CSS FOR THE RIGHT SIDE*/
+
+h4{
+    float:right;
+    margin-right:9%;
+    width:80%;
+    display:block;
+}
+
+h4{
+    text-align:center;
+}
+
+p{
+    display:inline;
+    
+}
+
+#here{
+    float:right;
+    margin-top:1%;
+    margin-right: 45%;
+}
+
+.content{
+    position:relative;;
+    text-align:center;
+    width:50%;
+    float:right;
+    right:1%;
+    margin-top: 15%;
+}
+
+/*CSS FOR GENERAL PAGE*/
+
+html{
+    text-align:center;
+    background: #D1913C;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(left, #FFD194, #a07530);
+    background: -moz-linear-gradient(left, #FFD194, #a07530);
+    background: -o-linear-gradient(left, #FFD194, #a07530);
+    background: linear-gradient(to right, #FFD194, #a07530);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+/*CSS FOR THE CONVERSION TABLE SECTION*/
+
+table {
+    border-collapse: collapse;
+    float:right;
+    margin-right:14%;
+    margin-top:10%;
+    width:70%;
+}
+
+td{
+    width:50%;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+.tableDiv{
+    position: absolute;
+    float: right;
+    width: 400px;
+    right: 8.25em;
+    top: 27.5em;
+}
+
+table{
+    margin-top:0px;
+}

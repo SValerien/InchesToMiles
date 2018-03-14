@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+    <head>
+        <title>Inches to Miles</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    </head>
+    <body>
+        <!-- To Do: shrink and move img, make comments and store them in a chart, make a table of the latest conversions -->
+        <div id="left">
+        <h5 id="recentH">Recent Conversions</h5>
+            <table id="recentTable">
+                <tr>
+                    <td>Miles to Inches<br>or<br>Inches to Miles</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+        <!--the images that switch spots together on teh left side-->
+        <img src="https://assets-auto.rbl.ms/74ad36c1638906658a50612a8552eaaa249079e8a2b3528a855e54006d74feb6" id="1"></img>
+        <img src="https://media.giphy.com/media/10pk8d1EoR7HrO/giphy.gif" id="2"></img>
+        
+        <!--Div that holds all the html on the right side of the page.-->
+        <div class="content">
+            <h1>Give an Inch, Take a Mile</h1>
+            
+            <!--The area with user input to convert Inches to Miles.-->
+            <input id="inchInput" placeholder="inches">
+            <button id="convertI">Convert</button>
+            <div id="pTagsMile">
+                <p>Miles: </p><p id="output"></p>
+            </div>
+            
+            <br>
+            
+            <!-- The area where miles are converted to miles because you know, that's fair.-->
+            <input id="mileInput" placeholder="miles">
+            <button id="convertM">Convert</button>
+            <div id="pTagsInch">
+                <p>Inches: </p><p id="outputIn"></p>
+            </div>
+            
+            <br>
+            <br>
+            
+            <!-- Stuff to change the image on the left.-->
+            <h4> Life is a highway and if you don't like the one on the left, click</h4>
+            <button id="here">HERE</button>
+            
+            <!--The table of conversions for easier times.-->
+            <div class="tableDiv">
+                <h4>Basic Conversions</h4>
+                <table>
+                    <tr>
+                        <td>Miles (approx.)</td>
+                        <td>Inches (approx.)</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>63360</td>
+                    </tr>
+                    <tr>
+                        <td>0.000015783</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>20</td>
+                        <td>1,267,000</td>
+                    </tr>
+                    <tr>
+                        <td>100</td>
+                        <td>6,336,000</td>
+                    </tr>
+                    <tr>
+                        <td>15.7828283</td>
+                        <td>1,000,000</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        
+        
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        </script>
+        <script src="app.js">
+        </script>
+    </body>
+</html>
